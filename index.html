@@ -7,47 +7,47 @@
     <title>A H M Imrul Hasan - CV</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
+            background-color: #f8f9fa;
+            color: #343a40;
             line-height: 1.6;
         }
         .container {
-            max-width: 800px;
-            margin: 20px auto;
+            max-width: 1000px;
+            margin: 40px auto;
             padding: 20px;
-            background: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background: #ffffff;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
         }
-        h1, h2, h3 {
-            color: #333;
+        header {
+            text-align: center;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
         }
         h1 {
             font-size: 2.5em;
             margin-bottom: 10px;
         }
+        h2, h3 {
+            color: #007bff;
+            margin-top: 30px;
+        }
         h2 {
             font-size: 1.8em;
-            margin-top: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
         }
         h3 {
-            font-size: 1.2em;
-            margin-top: 15px;
+            font-size: 1.4em;
+            margin-top: 20px;
+            margin-bottom: 10px;
         }
-        p {
-            margin: 10px 0;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        ul li {
-            margin: 5px 0;
-        }
-        .contact-info a {
-            color: #0073e6;
+        .contact-info p, .contact-info a {
+            color: #6c757d;
+            font-size: 1.1em;
             text-decoration: none;
         }
         .contact-info a:hover {
@@ -55,6 +55,28 @@
         }
         .section {
             margin-bottom: 30px;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .skills-list, .certifications-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .skills-list li, .certifications-list li {
+            margin-bottom: 8px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px 0;
+            background-color: #f1f1f1;
+            color: #6c757d;
+            font-size: 0.9em;
         }
     </style>
 </head>
@@ -70,15 +92,81 @@
 
         <section class="section">
             <h2>Work Experience</h2>
-            <h3>Software Architect - Brain Station 23 PLC, Bangladesh (Jan 2024 – Current)</h3>
-            <ul>
-                <li>Solution-oriented software architecture design support in enterprise landscape.</li>
-                <li>Designing delivery and deployment pipelines based on modern DevOps practices.</li>
-                <li>Planning and executing migration projects of business-critical applications with minimal downtime.</li>
-                <li>Tools and Technologies: AEM (Sling, OSGi, JCR), AWS, Apache Dispatcher, Docker, Java, Maven, Node, Gitlab Cli, Jira, Confluence.</li>
-                <li>Selected Projects: SAML Integration between AEM & Salesforce with custom handler, Low-cost Content Management Suite with Strapi & NextJS, AMS to AEM as Cloud Migration (ongoing), Centralized Asset Management between Veeva Vault & AEM (ongoing).</li>
-            </ul>
-            <!-- Add other positions similarly -->
+            <div>
+                <h3>Software Architect - Brain Station 23 PLC, Bangladesh (Jan 2024 – Current)</h3>
+                <ul>
+                    <li>Solution-oriented software architecture design support in enterprise landscape.</li>
+                    <li>Designing delivery and deployment pipelines based on modern DevOps practices.</li>
+                    <li>Planning and executing migration projects of business-critical applications with minimal downtime.</li>
+                    <li>Contribute to each phase of SDLC and day-to-day development (peer review, client communication, backlog grooming, project governance).</li>
+                    <li>Tools and Technologies: AEM (Sling, OSGi, JCR), AWS, Apache Dispatcher, Docker, Java, Maven, Node, Gitlab Cli, Jira, Confluence.</li>
+                    <li>Selected Projects: SAML Integration between AEM & Salesforce with custom handler, Low-cost Content Management Suite (Strapi & NextJS), AMS to AEM as Cloud Migration (ongoing), Centralized Asset Management between Veeva Vault & AEM (ongoing).</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Lead Engineer - Brain Station 23 LTD, Bangladesh (Jan 2021 – Dec 2023)</h3>
+                <ul>
+                    <li>Developed over 10 AEM sites for pharmaceutical enterprises such as AbbVie, Galápagos NV.</li>
+                    <li>Created plugins for pushing and managing medical content on Veeva Vault and Veeva CRM.</li>
+                    <li>Designed and implemented future-proof integration solutions for third-party systems (DocCheck, Fimnet, Moodle, Veeva, etc.).</li>
+                    <li>Explored advanced concepts like Hybrid and Headless CMS with AEM React SPA, Gatsby, NextJS.</li>
+                    <li>Technologies: Java, AWS, Spring Boot, Docker, Jenkins, Storybook, React, Jira, Confluence.</li>
+                    <li>AEM Technologies: Content Fragment, Lucene Index, Dispatcher, Cloud Manager, Crypto Support, Sling filter, etc.</li>
+                    <li>Selected Projects: <a href="https://www.galapagoshealth.com">Galapagos Health</a>, <a href="https://www.jyseleca.nl">Jyseleca</a>, <a href="https://products.glpg.com">GLPG Products</a>, <a href="https://werapriority.co.uk">Werapriority</a>, <a href="https://www.clinicaltrials-glpg.com">Clinical Trials GLPG</a></li>
+                    <li>Selected Integrations: AEM-On24 Integration, Coveo Integration, Automated tag sync between AEM and Veeva Vault, Automated Compliance workflow micro-service with multi-client support.</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Senior Software Engineer - Brain Station 23 LTD, Bangladesh (Feb 2018 – Dec 2020)</h3>
+                <ul>
+                    <li>Developed 13+ AEM sites for pharmaceutical enterprise AbbVie.</li>
+                    <li>Created AEM plugins for NewsCred for dynamic page generation.</li>
+                    <li>Integrated third-party systems (Veeva, Adobe Analytics) with AEM.</li>
+                    <li>Worked on AEM migration project from version 6.3 to 6.5.</li>
+                    <li>Technologies: Java, Linux, Docker, Maven, Jenkins, Bootstrap.</li>
+                    <li>Selected Projects: <a href="https://www.abbviepro.com">AbbVie Pro</a>, <a href="https://www.skyrizi.eu">Skyrizi</a>, <a href="https://www.infocenter-gastro.de/">Infocenter Gastro</a>, <a href="https://www.infocenter-rheuma.de/">Infocenter Rheuma</a>, <a href="https://www.infocenter-derma.de/">Infocenter Derma</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Software Engineer - Brain Station 23 LTD, Bangladesh (May 2017 – Jan 2018)</h3>
+                <ul>
+                    <li>Developed online banking application for AB Bank.</li>
+                    <li>Provided client communication and deployment support.</li>
+                    <li>Technologies: Spring, Hibernate, PostgreSQL, Tomcat, Trello.</li>
+                    <li>Project URL: <a href="https://abdirect.abbl.com/login.html#!">AB Direct</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Research Assistant - Mahidol University, Thailand (Aug 2015 – Sep 2016)</h3>
+                <ul>
+                    <li>Developed a machine learning model for malaria prediction.</li>
+                    <li>Technologies: Hadoop, J2SE, Netica, Weka, Python, R.</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Software Engineer - Brain Station 23, Bangladesh (June 2014 – Aug 2014)</h3>
+                <ul>
+                    <li>Developed web and mobile application for City Bank.</li>
+                    <li>Created integration test plans for service application.</li>
+                    <li>Technologies: J2EE, Spring, Hibernate, Tomcat, Oracle, JMeter.</li>
+                    <li>Project URL: <a href="https://www.citytouch.com.bd/login.html#!">City Touch</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Software Engineer - Smart IT Eng. Ltd., Bangladesh (Sep 2011 – May 2014)</h3>
+                <ul>
+                    <li>Developed eCommerce websites and publication services using ESCENIC.</li>
+                    <li>Created 3GPP VoIP calling system server SBB based on SIP.</li>
+                    <li>Technologies: J2EE, J2SE, JAX-RS, Spring, JavaScript, Hbase, MySQL.</li>
+                    <li>Project URL: <a href="https://expatliving.sg/">Expat Living</a></li>
+                </ul>
+            </div>
         </section>
 
         <section class="section">
@@ -89,18 +177,21 @@
 
         <section class="section">
             <h2>Certifications</h2>
-            <ul>
+            <ul class="certifications-list">
                 <li>Adobe Certified Expert Site Developer (Adobe Experience Manager)</li>
                 <li>Veeva Vault Platform Associate White Belt – 2024</li>
                 <li>AEM Community Advisor – 2024</li>
+                <li>Project Management Certificate from Wilkens Management Consulting Team</li>
                 <li>AWS Fundamentals: Going Cloud-Native (Coursera)</li>
-                <!-- Add more certifications if needed -->
+                <li>Docker Essentials & Building a Containerized Web Application (Coursera)</li>
+                <li>AWS Fundamentals: Building Serverless Applications (Coursera)</li>
+                <li>Introduction to Data Science in Python (University of Michigan) (Coursera)</li>
             </ul>
         </section>
 
         <section class="section">
             <h2>Skills and Interests</h2>
-            <ul>
+            <ul class="skills-list">
                 <li>Proficient in Java, AWS, Docker, Spring Boot, AEM, and more.</li>
                 <li>Experienced in developing and integrating enterprise solutions with AEM.</li>
                 <li>Passionate about learning new technologies and frameworks.</li>
